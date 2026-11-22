@@ -1,0 +1,11 @@
+1. Jelaskan peran connect(), execute(), dan commit() dalam proses penyimpanan data pada aplikasi yang Anda buat.
+
+connect() berfungsi untuk menghubungkan program dengan database SQLite, sekaligus membuat file database apabila belum tersedia. execute() digunakan untuk menjalankan perintah SQL, seperti INSERT untuk menambahkan data, SELECT untuk mengambil data, UPDATE untuk mengubah data, dan DELETE untuk menghapus data. Sementara itu, commit() berfungsi untuk menyimpan perubahan yang dilakukan ke dalam database secara permanen. Ketiga fungsi tersebut saling berkaitan agar proses pengelolaan data dapat berjalan dengan baik.
+
+2. Bagian mana dari praktikum ini yang paling menantang bagi Anda? Bagaimana cara Anda mengatasinya?
+
+Bagian yang paling menantang menurut saya adalah mengintegrasikan Tkinter dengan SQLite, terutama menghubungkan input dari formulir dengan perintah SQL dan menampilkan hasilnya ke dalam Treeview. Hal ini cukup membingungkan karena setiap fitur memiliki fungsi dan alur yang berbeda. Cara saya mengatasinya adalah dengan memahami fungsi setiap bagian kode, memeriksa pesan error yang muncul, serta menguji setiap fitur secara bertahap sampai semuanya dapat berjalan sesuai harapan.
+
+3. Jika aplikasi ini akan digunakan oleh bagian administrasi program studi, fitur atau perlindungan data apa yang menurut Anda perlu ditambahkan?
+
+Menurut saya, aplikasi ini masih perlu dikembangkan dengan menambahkan fitur login dan hak akses pengguna agar tidak semua orang dapat mengubah atau menghapus data mahasiswa. Selain itu, perlu ditambahkan fitur pencadangan (backup) database untuk mengantisipasi kehilangan data, serta riwayat aktivitas untuk mengetahui siapa yang melakukan perubahan terhadap data. Dengan adanya fitur tersebut, pengelolaan data mahasiswa akan menjadi lebih aman, terstruktur, dan mudah dipantau.
